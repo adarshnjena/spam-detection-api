@@ -1,14 +1,14 @@
 # Spam Detection API
 
-This project implements a REST API for a mobile app that manages contacts, detects spam, and allows users to search for phone numbers. It's built using TypeScript, Bun, and the Hono framework, with PostgreSQL as the database and Drizzle ORM for database operations.
+This project implements a REST API for a mobile app that manages contacts, detects spam, and allows users to search for phone numbers. It's built using TypeScript, Bun, and the Hono framework, with PostgreSQL(neon postgres) as the database and Drizzle ORM for database operations.
 
 ## Features
 
 - User registration and authentication
 - Contact management
-- Spam reporting and detection
-- Name and phone number search functionality
 - Call history tracking
+- Spam reporting and detection (history is used to verify every reported spams)
+- Name and phone number search functionality
 
 ## Prerequisites
 
