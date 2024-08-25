@@ -1,7 +1,7 @@
 import { Hono } from "hono";
 import { zValidator } from "@hono/zod-validator";
 import { z } from "zod";
-import { db } from "../index";
+import { db } from "../../index";
 import { spamReports, callHistory, contacts } from "../schema";
 import { eq, and, inArray } from "drizzle-orm";
 import { authenticate } from "../middlewares/auth";
