@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import { zValidator } from "@hono/zod-validator";
-import { db } from "../../index";
+import { db } from "../index";
 import { contacts, users } from "../schema";
 import { authenticate } from "../middlewares/auth";
 import { eq } from "drizzle-orm";

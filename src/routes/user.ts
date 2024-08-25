@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import { zValidator } from "@hono/zod-validator";
-import { db } from "../../index";
+import { db } from "../index";
 import { users, contacts } from "../schema";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";

@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import { zValidator } from "@hono/zod-validator";
-import { db } from "../../index";
+import { db } from "../index";
 import { callHistory, contacts } from "../schema";
 import { eq, desc, sql } from "drizzle-orm";
 import { createHistorySchema, getHistorySchema } from "../utils/validator";
