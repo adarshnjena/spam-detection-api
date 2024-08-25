@@ -2,30 +2,6 @@
 
 This project implements a REST API for a mobile app that manages contacts, detects spam, and allows users to search for phone numbers. It's built using TypeScript, Bun, and the Hono framework, with PostgreSQL(neon postgres) as the database and Drizzle ORM for database operations.
 
-spam-detection-api/
-
-├── src/
-│   ├── routes/
-│   │   ├── users.ts
-│   │   ├── contacts.ts
-│   │   ├── search.ts
-│   │   ├── history.ts
-│   │   └── spam.ts
-│   ├── middlewares/
-│   │   └── auth.ts
-│   ├── utils/
-│   ├── schema.ts
-│   └── index.ts
-├── scripts/
-│   └── populate-data.ts
-├── drizzle/
-│   └── migrations/
-├── .env
-├── .gitignore
-├── package.json
-├── tsconfig.json
-└── README.md
-
 ## Features
 
 - User registration and authentication
