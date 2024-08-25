@@ -5,7 +5,7 @@
   "scripts": {
     "start": "bun index.ts",
     "dev": "bun index.ts --watch",
-    "build": "bun index.ts --compile",
+    "build": "bun build index.ts --compile",
     "generate": "bunx drizzle-kit generate",
     "migrate": "bunx drizzle-kit push",
     "studio": "bunx drizzle-kit studio",
