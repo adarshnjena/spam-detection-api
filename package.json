@@ -1,0 +1,31 @@
+{
+  "name": "spam-detection-api",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun run src/index.ts --watch",
+    "generate": "bunx drizzle-kit generate",
+    "migrate": "bunx drizzle-kit push",
+    "studio": "bunx drizzle-kit studio",
+    "populate": "bun run scripts/populate-data.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "drizzle-kit": "^0.24.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.2.2",
+    "@neondatabase/serverless": "^0.9.4",
+    "@types/bcrypt": "^5.0.2",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.33.0",
+    "hono": "^4.5.8",
+    "node-cache": "^5.1.2",
+    "zod": "^3.23.8"
+  }
+}

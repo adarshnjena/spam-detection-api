@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1724578206750,
+      "tag": "0000_spooky_spitfire",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1724578319749,
+      "tag": "0001_cool_the_fury",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1724578657155,
+      "tag": "0002_wandering_blacklash",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1724604334631,
+      "tag": "0003_heavy_wiccan",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1724611116393,
+      "tag": "0004_blue_gravity",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1724612772659,
+      "tag": "0005_premium_bloodstorm",
+      "breakpoints": true
+    }
+  ]
+}
