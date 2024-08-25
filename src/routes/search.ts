@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import { db } from "../index";
+import { db } from "../../index";
 import { contacts } from "../schema";
 import { authenticate } from "../middlewares/auth";
 import { ilike, sql } from "drizzle-orm";

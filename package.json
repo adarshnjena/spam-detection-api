@@ -3,8 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "bun run src/index.ts",
-    "dev": "bun run src/index.ts --watch",
+    "start": "bun index.ts",
+    "dev": "bun index.ts --watch",
+    "build": "bun index.ts --compile",
     "generate": "bunx drizzle-kit generate",
     "migrate": "bunx drizzle-kit push",
     "studio": "bunx drizzle-kit studio",
@@ -25,7 +26,6 @@
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.33.0",
     "hono": "^4.5.8",
-    "node-cache": "^5.1.2",
     "zod": "^3.23.8"
   }
 }
